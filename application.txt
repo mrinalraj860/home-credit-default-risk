@@ -1,0 +1,19 @@
+Size : (307511, 122) 
+Col with NAN : 67
+Deleted ROWS with NAN (NaN): NO of NAN users
+AMT_ANNUITY   : 12
+AMT_GOODS_PRICE :  278
+NAME_TYPE_SUITE  : 1292
+
+
+For Scores: 
+There are 3 EXT_SOURCE_1, EXT_SOURCE_2 and EXT_SOURCE_3. The way NANs are mannaged is taking mean for EXT_SOURCE_1 and filling EXT_SOURCE_1.
+Same for EXT_SOURCE_2 and EXT_SOURCE_3. Lastly creating another Column name EXT_SOURCES_MEAN with all mean wrt. row and deleting all sources.
+
+
+
+for DPD:
+OBS_30_CNT_SOCIAL_CIRCLE   1021 FILLNA(3)
+DEF_30_CNT_SOCIAL_CIRCLE   1021 FILLNA(3)
+OBS_60_CNT_SOCIAL_CIRCLE   1021 FILLNA(3)
+DEF_60_CNT_SOCIAL_CIRCLE   1021 FILLNA(3)
